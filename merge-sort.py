@@ -32,6 +32,6 @@ def merge(arr,p,q,r):
             i+=1
             k+=1
         else: 
-            arr = right_arr[j]
+            arr[k] = right_arr[j]
             j+=1
             k+=1   
