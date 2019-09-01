@@ -1,6 +1,4 @@
-import random
-
-#selection sort algorithm is an O(n^2) alg.
+#insertion sort algorithm is an O(n^2) alg.
 def selection_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -15,6 +13,7 @@ def selection_sort(arr):
 #generate a random list
 arr = []
 for i in range(10):
+    import random
     arr.append(random.randint(0,99))
 
 #print this list before sorting.
